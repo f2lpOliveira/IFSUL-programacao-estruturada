@@ -1,8 +1,12 @@
-// #include <stdio.h>
+// Faça um programa que contenha somente um comando para imprimir na tela as informações abaixo:
+// Curso: Técnico em Informática
+// Disciplina: Programação Estruturada
+// Ano: 2017
 
-// main(){
+#include <stdio.h>
 
-//   printf("Curso: Técnico em Informática\nDisciplina: Programação
-//   Estruturada\nAno: 2017");
+main(){
 
-// }
+  printf("Curso: Técnico em Informática\nDisciplina: Programação Estruturada\nAno: 2017");
+
+}
