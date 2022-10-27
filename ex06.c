@@ -19,15 +19,15 @@
     
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-main(){
+// main(){
 
-  float a = 2, b = 3;
-  float div;
+//   float a = 2, b = 3;
+//   float div;
 
-  div = a/b;
+//   div = a/b;
 
-  printf("%.2f",div);
+//   printf("%.2f",div);
   
-}
+// }
