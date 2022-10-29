@@ -1,14 +1,17 @@
-// #include <stdio.h>
+// Faça um programa capaz de ler um caracter e um número inteiro do teclado. Após a leitura
+// apresente-os na tela do computador.
 
-// main(){
+#include <stdio.h>
 
-//   char letra;
-//   int numero;
+main(){
 
-//   printf("Digite uma letra: ");
-//   scanf("%c", &letra); 
-//   printf("Digite um número inteiro: ");
-//   scanf("%d", &numero);
+  char letra;
+  int numero;
 
-//   printf("Letra = %c\nNúmero = %d", letra, numero);
-// }
+  printf("Digite uma letra: ");
+  scanf("%c", &letra); 
+  printf("Digite um número inteiro: ");
+  scanf("%d", &numero);
+
+  printf("Letra = %c\nNúmero = %d", letra, numero);
+}

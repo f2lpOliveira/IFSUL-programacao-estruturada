@@ -1,7 +1,9 @@
-// #include <stdio.h>
+// Faça um programa que mostre na tela os seguintes dados seus:
 
-// main(){
+#include <stdio.h>
 
-//  printf("Nome: Fellipe\nCurso: Desenvolvimento de Sistemas");
+main(){
+
+ printf("Nome: Fellipe\nCurso: Desenvolvimento de Sistemas");
   
-// }
+}

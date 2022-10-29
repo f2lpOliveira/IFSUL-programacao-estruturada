@@ -1,14 +1,16 @@
-// #include <stdio.h>
+// Faça um programa para o usuário calcular um aumento de 20% no seu salário.
 
-// main(){
+#include <stdio.h>
 
-//   float salario, aumento = 0.2, novoSalario;
+main(){
+
+  float salario, aumento = 0.2, novoSalario;
  
-//   printf("Informe o valdor do seu salário: R$");
-//     scanf("%f", &salario);
+  printf("Informe o valdor do seu salário: R$");
+    scanf("%f", &salario);
 
-//   novoSalario = salario + (salario * aumento);
+  novoSalario = salario + (salario * aumento);
 
-//   printf("Seu novo salário corresponde a: R$ = %6.2f", novoSalario);
+  printf("Seu novo salário corresponde a: R$ = %6.2f", novoSalario);
   
-// }
+}

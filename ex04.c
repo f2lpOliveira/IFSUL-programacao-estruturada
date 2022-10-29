@@ -1,14 +1,16 @@
-// #include <stdio.h>
+// Faça um programa para o usuário calcular a área de um quadrado. Lembre-se: Área = lado*lado.
 
-// main(){
+#include <stdio.h>
 
-//   float lado, area;
+main(){
 
-//   printf("Digite o valor de um dos lados: ");
-//     scanf("%f", &lado);
+  float lado, area;
+
+  printf("Digite o valor de um dos lados: ");
+    scanf("%f", &lado);
   
-//   area = lado * lado;
+  area = lado * lado;
 
-//     printf("Área = %4.2f", area);
+    printf("Área = %4.2f", area);
   
-// }
+}

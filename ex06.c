@@ -1,33 +1,36 @@
-// #include <stdio.h>
+// Faça um programa que solicite ao usuário dois números inteiros. Ele deve calcular e mostrar a soma,
+// subtração, multiplicação e divisão destes dois números.
 
-// main(){
+#include <stdio.h>
 
-//   int a, b, soma, subtracao, multiplicacao;
-//   float divisao;
+main(){
 
-//   printf("Digite um primeiro número inteiro: ");
-//   scanf("%d", &a);
-//   printf("Digite um segundo número inteiro: ");
-//   scanf("%d", &b);
+  int a, b, soma, subtracao, multiplicacao;
+  float divisao;
 
-//   soma = a + b;
-//   subtracao = a - b;
-//   multiplicacao = a * b;
-//   divisao = a / b;
+  printf("Digite um primeiro número inteiro: ");
+  scanf("%d", &a);
+  printf("Digite um segundo número inteiro: ");
+  scanf("%d", &b);
 
-//   printf("Soma = %d\nSubtração = %d\nMultiplicação = %d\nDivisão = %.2f", soma, subtracao, multiplicacao, divisao);
+  soma = a + b;
+  subtracao = a - b;
+  multiplicacao = a * b;
+  divisao = a / b;
+
+  printf("Soma = %d\nSubtração = %d\nMultiplicação = %d\nDivisão = %.2f", soma, subtracao, multiplicacao, divisao);
     
-// }
+}
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// main(){
+main(){
 
-//   float a = 2, b = 3;
-//   float div;
+  float a = 2, b = 3;
+  float div;
 
-//   div = a/b;
+  div = a/b;
 
-//   printf("%.2f",div);
+  printf("%.2f",div);
   
-// }
+}
